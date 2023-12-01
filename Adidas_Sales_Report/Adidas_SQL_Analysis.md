@@ -27,9 +27,21 @@ Adidas, a global leader in the sportswear industry, has collected comprehensive 
 - Provide actionable insights and recommendations based on the analysis.
 - Suggest potential areas for improvement or optimization in the sales strategy.
 
-**Expected Outcomes:**
 
-Upon completion of the data analysis project, Adidas expects to gain a deeper understanding of its sales performance in the US market during the specified period. The insights obtained will contribute to informed decision-making, allowing Adidas to refine its sales strategy, optimize inventory management, and enhance overall customer satisfaction.
+**OUTCOMES AND SUMMARIZED INSIGHTS:**
+The following insights are a summary of the outcome in the querries in this document.
+-In-Store Sales in 2020 had a slowdown in 2021. While Online Sales represented more of the Overall sales in 2021. This could be primarily because of the begining of the Covid Pandemic.
+-Sales in 2020 came mostly on Fridays(16.39%) and in 2021 the sales were slightly higher during Tuesdays (15.3%) and Thursdays(15.32%). This could also be because of the same shift to online sales. Stores could have deals on different days depending if the marketing team wants to focus on covering the sales on the days Adidas sells less or if Adidas wants to capitalize on the days they sell more.
+-In terms of seasonality the sales tended to be slighlty less at the very end of the year (November-December), The beginning of 2020 had much higher sales compared to the end possibly due to the economic problems caused by the Covid Pandemic. In 2021 the sales were more stable throughout the year, with a small slowdowns in February and November.
+-Men buy more Adidas Shoe products 40.2% of sales (specially Street wear 23.2%), while Women tend to buy more the Apparel aspect of Adidas 19.8% of all sales.
+-New York, California, and Florida were the overall Top 3 States based on units sold.
+-Revenue was considerably higher from the retailers WestGear and Footlocker.
+
+
+
+
+
+
 
 **Adidas queries**
 
