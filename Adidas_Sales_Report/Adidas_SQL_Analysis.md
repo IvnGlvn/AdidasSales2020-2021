@@ -29,13 +29,19 @@ Adidas, a global leader in the sportswear industry, has collected comprehensive 
 
 
 **OUTCOMES AND SUMMARIZED INSIGHTS:**
-The following insights are a summary of the outcome in the querries in this document.
-1. In-Store Sales in 2020 had a slowdown in 2021. While Online Sales represented more of the Overall sales in 2021. This could be primarily because of the beginning of the Covid Pandemic.
-2. Sales in 2020 came mostly on Fridays(16.39%) and in 2021 the sales were slightly higher during Tuesdays (15.3%) and Thursdays(15.32%). This could also be because of the same shift to online sales. Stores could have deals on different days depending if the marketing team wants to focus on covering the sales on the days Adidas sells less or if Adidas wants to capitalize on the days they sell more.
-3. In terms of seasonality the sales tended to be slighlty less at the very end of the year (November-December), The beginning of 2020 had much higher sales compared to the end possibly due to the economic problems caused by the Covid Pandemic. In 2021 the sales were more stable throughout the year, with a small slowdowns in February and November.
-4. Men buy more Adidas Shoe products 40.2% of sales (specially Street wear 23.2%), while Women tend to buy more the Apparel aspect of Adidas 19.8% of all sales.
-5. New York, California, and Florida were the overall Top 3 States based on units sold.
-6. Revenue was considerably higher from the retailers WestGear and Footlocker.
+The insights summarized here are derived from the data queries presented in this document:
+
+-There was a notable decrease in in-store sales for Adidas in 2021 compared to 2020, while online sales saw an increase in their share of total sales in 2021. This trend likely stemmed from the onset of the Covid-19 pandemic, which shifted consumer purchasing habits. Capitalizing on this trend, Adidas can enhance its online presence and digital marketing strategies, giving an edge over competitors slower to adapt to digital transformations.
+
+-Analyzing weekly sales patterns, it was observed that Fridays were the peak sales days in 2020, accounting for 16.39% of sales. However, in 2021, there was a shift with Tuesdays (15.3%) and Thursdays (15.32%) emerging as the days with higher sales. This shift, possibly related to the increased preference for online shopping, opens up strategic considerations for the marketing team to either target lower-sales days for boosting revenue or capitalize on the already high-sales days.
+
+-Seasonal sales trends indicated a dip towards the end of the year (November-December). The beginning of 2020 experienced higher sales, which declined towards the end of the year, likely due to the economic impact of the Covid pandemic. In contrast, 2021 showed more consistent sales throughout the year, with minor dips in February and November. This approach can maintain customer engagement even during typically slower months, setting Adidas apart from competitors who may not leverage seasonality as effectively.
+
+-Demographically, men contributed more to Adidas Shoe sales, making up 40.2% of total sales, with a particular preference for streetwear shoes (23.2%). In comparison, women were more inclined towards purchasing Adidas Apparel, representing 19.8% of all sales. Adidas can more effectively meet customer demands. Offering a more focused range of streetwear shoes for men and expanding the apparel line for women can cater precisely to consumer needs, giving Adidas a competitive edge in understanding and satisfying market segments.
+
+-The top three states in terms of units sold for Adidas products were New York, California, and Florida, indicating strong market presence in these regions. Adidas can concentrate its marketing and distribution efforts in these states. Customizing strategies to suit regional preferences and consumer behaviors in New York, California, and Florida can increase market penetration and brand loyalty, positioning Adidas ahead of competitors in these key markets.
+
+-The retail partners WestGear and Footlocker generated significantly higher revenue for Adidas, highlighting their importance in the brand's retail strategy. Strengthening relationships with high-performing retailers like WestGear and Footlocker can lead to more collaborative marketing efforts and exclusive product launches, enhancing brand visibility and sales. This symbiotic relationship not only boosts Adidas’s sales but also provides a competitive edge through strong retail partnerships.
 
 
 
@@ -45,13 +51,13 @@ The following insights are a summary of the outcome in the querries in this docu
 
 **Adidas queries**
 
-The following queries take into account the KPI's for this project and intend to gather insight based on said KPI's in order to address Key Questions.
+The following queries take into account the KPIs for this project and intend to gather insight based on said KPIs in order to address Key Questions.
 
 SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
 ![Description of image](Results Img/Total_Revenue (1.0).jpg)
 
 
-- Right away I wanted to know the Total Revenue so I started with the simple SUM Query. This number could give me a little bit more information into other aspects later on.
+- Right away I wanted to know the Total Revenue so I started with the simple SUM Query. This number could give me a little bit more information about other aspects later on.
 
 
 
@@ -166,7 +172,7 @@ Invoice\_Year;
 
 ![Description of image](Results Img/Total_Year (3.0).jpg)
 
-- Following up, I wanted to know the total units sold in each year. This will allow me to later move on into revenue by year and have this piece of information that tells us about our KPI's, as well as helping us analyze trends and seasonality.
+- Following up, I wanted to know the total units sold in each year. This will allow me to later move on into revenue by year and have this piece of information that tells us about our KPIs, as well as helping us analyze trends and seasonality.
 
 
 
@@ -234,7 +240,7 @@ Sales\_Method;
 
 ![This is a table from the result of the above query](Results Img/Units_Sold_by_Method (4.0).jpg)
 
-- Here I wanted to Understand a little bit more of what Sales Methods were most popular yearly. We can see that the Outlet Sales for 2020 represent 47.29% of all sales in that year compared to 31.29% in 2021. While Online Sales represent 18.83% of all sales in 2020, in 2021 this number went to 42.25%. In-Store Sales represent 33.86% of all sales in 2020, in 2021 26.45%.
+- Here I wanted to Understand a little bit more of what Sales Methods were most popular yearly. We can see that the Outlet Sales for 2020 represent 47.29% of all sales in that year compared to 31.29% in 2021. While Online Sales represented 18.83% of all sales in 2020, in 2021 this number went to 42.25%. In-Store Sales represent 33.86% of all sales in 2020, in 2021 26.45%.
 
 
 
@@ -300,7 +306,8 @@ MIN(Invoice\_Date);
 
 ![This is a table from the result of the above query](Results Img/Total_Weekday (5.0).jpg)
 
-- Here I was a little bit curious of what days sell more units, and if by any chance there was a day that had numbers that could give us insights. Here are the following %.
+
+- Here I was a little bit curious about what days sell more units, and if by any chance there was a day that had numbers that could give us insights. Here are the following %.
 
 -Monday 13.15%--------------------------------(2021)Monday: 12.58%
 
@@ -391,7 +398,8 @@ Invoice\_Month;
 ![This is a table from the result of the above query 2020](Results Img/Total_Month (6.0).jpg)
 ![This is a table from the result of the above query 2021](Results Img/Total_Month (6.0).jpg)
 
-- I was also curious about splitting it by month, because it allows us to understand how the trend works in relation of seasonality. Here are the %
+
+- I was also curious about splitting it by month because it allows us to understand how the trend works in relation to seasonality. Here are the %
 
 -January 10.45%(2020)-----------------------8.89% (2021)
 
@@ -417,7 +425,7 @@ Invoice\_Month;
 
 -December4.44%(2020)-----------------------8.49% (2021)
 
-The information gathered based on months, is specially interesting in 2020 where we see in the months from January to May, where we see stability in the % of sales, but afterwards we start to see big variability on the sales each month. In this case is easy to interpret that since the COVID pandemic started in the beginning of 2020, the spending was normal at the beginning of the year, but later on doubts about general economic stability could have hurt the sales. In 2021 where the sales are around 4 times larger than 2020, the economic situation was also more stable, which could potentially explain why the sales were also stable.
+The information gathered based on months is especially interesting in 2020 where we see in the months from January to May, where we see stability in the % of sales, but afterward we start to see big variability on the sales each month. In this case is easy to interpret that since the COVID pandemic started in the beginning of 2020, the spending was normal at the beginning of the year, but later on doubts about general economic stability could have hurt the sales. In 2021 when the sales were around 4 times larger than in 2020, the economic situation was also more stable, which could potentially explain why the sales were also stable.
 
 
 
@@ -473,7 +481,7 @@ ORDERBY PCT DESC;
 
 ![This is a table from the result of the above query](Results Img/PCT_by_Product (7.0).jpg)
 
-- This time I'm jumping directly into what products drive the biggest revenue (% PCT) and we can see that generally speaking Men's Street Footwear drives more revenue than others, followed by Women's Apparel and Men's Athletic Footwear. Which indicates that Men tend to focus more on the Shoes aspect (specially Street Footwear), and Women's tend to use adidas more as a apparel brand.
+- This time I'm jumping directly into what products drive the biggest revenue (% PCT) and we can see that generally speaking Men's Street Footwear drives more revenue than others, followed by Women's Apparel and Men's Athletic Footwear. This indicates that Men tend to focus more on the Shoe aspect (especially Street Footwear), and Women tend to use Adidas more as an apparel brand.
 
 
 
