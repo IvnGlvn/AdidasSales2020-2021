@@ -48,6 +48,8 @@ The following insights are a summary of the outcome in the querries in this docu
 The following queries take into account the KPI's for this project and intend to gather insight based on said KPI's in order to address Key Questions.
 
 SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
+![Description of image](Results Img/Total_Revenue (1.0).jpg)
+
 
 - Right away I wanted to know the Total Revenue so I started with the simple SUM Query. This number could give me a little bit more information into other aspects later on.
 
@@ -94,6 +96,8 @@ FROM adidas\_us
 SELECT\*
 
 FROM SalesCTE
+
+![Description of image](Results Img/CTE (2.0).jpg)
 
 - I decided to create a CTE that I can work with from the beginning because I can slowly build it up based on the progress of the project. A CTE allows me to keep the code fairly clean, while also "creating" "temporary tables" that have different information than the original one. If a project has multiple tables to work with, this simplifies queries that involve multiple joins and is less confusing if worked in the beginning.
 
@@ -159,6 +163,8 @@ Invoice\_Year
 ORDERBY
 
 Invoice\_Year;
+
+![Description of image](Results Img/Total_Year (3.0).jpg)
 
 - Following up, I wanted to know the total units sold in each year. This will allow me to later move on into revenue by year and have this piece of information that tells us about our KPI's, as well as helping us analyze trends and seasonality.
 
@@ -226,6 +232,8 @@ Invoice\_Year,
 
 Sales\_Method;
 
+![This is a table from the result of the above query](Results Img/Units_Sold_by_Method (4.0).jpg)
+
 - Here I wanted to Understand a little bit more of what Sales Methods were most popular yearly. We can see that the Outlet Sales for 2020 represent 47.29% of all sales in that year compared to 31.29% in 2021. While Online Sales represent 18.83% of all sales in 2020, in 2021 this number went to 42.25%. In-Store Sales represent 33.86% of all sales in 2020, in 2021 26.45%.
 
 
@@ -289,6 +297,8 @@ DATENAME(WEEKDAY, Invoice\_Date)
 ORDERBY
 
 MIN(Invoice\_Date);
+
+![This is a table from the result of the above query](Results Img/Total_Weekday (5.0).jpg)
 
 - Here I was a little bit curious of what days sell more units, and if by any chance there was a day that had numbers that could give us insights. Here are the following %.
 
@@ -378,6 +388,9 @@ Invoice\_Year,
 
 Invoice\_Month;
 
+![This is a table from the result of the above query 2020](Results Img/Total_Month (6.0).jpg)
+![This is a table from the result of the above query 2021](Results Img/Total_Month (6.0).jpg)
+
 - I was also curious about splitting it by month, because it allows us to understand how the trend works in relation of seasonality. Here are the %
 
 -January 10.45%(2020)-----------------------8.89% (2021)
@@ -458,6 +471,8 @@ GROUPBY Product
 
 ORDERBY PCT DESC;
 
+![This is a table from the result of the above query](Results Img/PCT_by_Product (7.0).jpg)
+
 - This time I'm jumping directly into what products drive the biggest revenue (% PCT) and we can see that generally speaking Men's Street Footwear drives more revenue than others, followed by Women's Apparel and Men's Athletic Footwear. Which indicates that Men tend to focus more on the Shoes aspect (specially Street Footwear), and Women's tend to use adidas more as a apparel brand.
 
 
@@ -514,6 +529,10 @@ GROUPBYState
 
 ORDERBY PCT DESC;
 
+![This is a table from the result of the above query 2020/2021](Results Img/PCT_by_State (8.0).jpg)
+![This is a table from the result of the above query 2021](Results Img/PCT_by_State (8.1).jpg)
+![This is a table from the result of the above query 2020](Results Img/PCT_by_State (8.2).jpg)Total_Retailer 
+
 SELECT Retailer,
 
 SUM(CASEWHENYEAR(Invoice\_Date)= 2020 THEN Total\_Sales ELSE 0 END)AS Total\_Revenue\_2020,
@@ -527,3 +546,6 @@ WHEREYEAR(Invoice\_Date)IN(2020, 2021)
 GROUPBY Retailer
 
 ORDERBY Total\_Revenue\_2021 DESC;
+![This is a table from the result of the above query 2021](Results Img/Total_Retailer (9.0).jpg)
+
+FOR THE COMPLETE INSIGHTS AND SUMMARY REFER TO THE BEGINNING OF THIS md FILE AND TO THE TABLEU PUBLIC CHART LINKED IN THE REDME FILE
