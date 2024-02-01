@@ -54,6 +54,7 @@ The insights summarized here are derived from the data queries presented in this
 The following queries take into account the KPIs for this project and intend to gather insight based on said KPIs in order to address Key Questions.
 
 SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
+
 ![Description of image](Results Img/Total_Revenue (1.0).jpg)
 
 
@@ -104,7 +105,9 @@ SELECT\*
 FROM SalesCTE
 ```
 ![Description of image](/Adidas_Sales_Report/Results Img/CTE (2.0).jpg)
-[results](Adidas_Sales_Report/Results Img/CTE (2.0).jpg)
+[results](</Adidas_Sales_Report/Results Img/CTE (2.0).jpg>)
+NEW 
+[results](<./Adidas_Sales_Report/Results Img/CTE (2.0).jpg>)
 
 
 - I decided to create a CTE that I can work with from the beginning because I can slowly build it up based on the progress of the project. A CTE allows me to keep the code fairly clean, while also "creating" "temporary tables" that have different information than the original one. If a project has multiple tables to work with, this simplifies queries that involve multiple joins and is less confusing if worked in the beginning.
