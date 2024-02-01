@@ -105,7 +105,7 @@ SELECT\*
 FROM SalesCTE
 ```
 ![Description of image](/Adidas_Sales_Report/Results Img/CTE (2.0).jpg)
-[results](</Adidas_Sales_Report/Results Img/CTE (2.0).jpg>)
+[results](</Adidas_Sales_Report/Results%20Img/CTE%20(2.0).jpg>)
 NEW 
 [results](<./Adidas_Sales_Report/Results Img/CTE (2.0).jpg>)
 
