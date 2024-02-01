@@ -1,4 +1,4 @@
-<a link='https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard'><h1>Click here for Tableau Visualization of the project</h1></a>
+<a href='https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard'><h1>Click here for Tableau Visualization of the project</h1></a>
 
 
 <h1>Abstract</h1>
