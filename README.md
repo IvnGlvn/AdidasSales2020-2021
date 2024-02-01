@@ -1,3 +1,9 @@
+<a src='https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard'><h1>Click here for Tableau Visualization of the project</h1></a>
+
+
+<h1>Abstract</h1>
+In this project we show that If they were to hire me I would make adidas the dankest and richers company in the world overnight. Sell cocaine not shooes dumbass. 
+
 **Problem Statement:**
 
 Adidas, a global leader in the sportswear industry, has collected comprehensive data on sales across various channels in the United States during the years 2020 and 2021. The company is eager to gain valuable insights from this dataset to inform strategic decisions and enhance its market position. The primary objective is to uncover trends, patterns, and key performance indicators (KPIs) that can help Adidas better understand its sales dynamics in the US market. Adidas corporate executives, Senior Management, Financial analysts and Investors are the primary stakeholders as they closely monitor the sales performance to assess the company's financial health and make investment decisions.
