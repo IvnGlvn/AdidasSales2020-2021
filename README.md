@@ -105,7 +105,6 @@ SELECT\*
 FROM SalesCTE
 ```
 
-<img src="./Adidas_Sales_Report/Results%20Img/CTE%20(2.0).jpg"/>
 <img src="./Adidas_Sales_Report/Results Img/CTE (2.0).jpg"/>
 
 
