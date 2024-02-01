@@ -64,7 +64,7 @@ SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
 
 
 – Created a CTE that will help get the date in a format that can be worked with, and if needed the CTE can be modified for other purposes later.
-
+```
 WITH SalesCTE AS (
 
 SELECT
@@ -102,8 +102,9 @@ FROM adidas\_us
 SELECT\*
 
 FROM SalesCTE
-
+```
 ![Description of image](/Adidas_Sales_Report/Results Img/CTE (2.0).jpg)
+[results](Adidas_Sales_Report/Results Img/CTE (2.0).jpg)
 
 
 - I decided to create a CTE that I can work with from the beginning because I can slowly build it up based on the progress of the project. A CTE allows me to keep the code fairly clean, while also "creating" "temporary tables" that have different information than the original one. If a project has multiple tables to work with, this simplifies queries that involve multiple joins and is less confusing if worked in the beginning.
