@@ -1,4 +1,3 @@
-[Click here for Tableau Visualization of the project](https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard) { : target="_blank"}
 <a href="https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard" target="_blank"> Click here for Tableau Visualization of the project</a>
 
 
