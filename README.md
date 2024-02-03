@@ -526,6 +526,7 @@ FROM adidas\_us
 ```
 
 --Added WHERE YEAR()= in between FROM and Group as well as after the "from Sales CTE" in the select to get results only from 2021 and 2020.
+
 ```
 SELECTTOP 5 State,SUM(Total\_Sales)\*100/(SELECTSUM(Total\_Sales)from SalesCTE)AS PCT
 
@@ -538,6 +539,7 @@ ORDERBY PCT DESC;
 <img src="./Adidas_Sales_Report/Results Img/PCT_by_State (8.0).jpg"/>
 <img src="./Adidas_Sales_Report/Results Img/PCT_by_State (8.1).jpg"/>
 <img src="./Adidas_Sales_Report/Results Img/PCT_by_State (8.2).jpg"/>
+
 ```
 SELECT Retailer,
 
