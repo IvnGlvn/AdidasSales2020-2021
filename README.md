@@ -1,7 +1,7 @@
 <a href="https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard" target="_blank"> Click here for Tableau Visualization of the project</a>
 
 
-**Abstract**
+<h2>Abstract</h2>  
 My focus during this project is to inform adidas of how can they leverage their advantage in certain areas they are strong in, so they can solidify their advantage as one of the leaders in sportwear. My approach during this project is an approach of using data in order to create advantage through strategies that can boost adidas in those areas that they are stong in, so they can not only mantain the number of sales, but also improve it. This summary highlights strategic opportunities for Adidas to reinforce its market leadership by adapting to shifts in consumer behaviors and leveraging its strengths. The transition towards online shopping, emerging from the Covid-19 pandemic, offers a key area for Adidas to expand its digital footprint and outpace competitors. Analysis of sales patterns reveals potential for targeted marketing strategies, focusing on optimizing sales on specific days of the week and throughout the year to maintain consumer engagement. Demographic insights suggest tailoring product lines to meet the distinct preferences of men and women, enhancing Adidas's relevance and appeal. Additionally, focusing on high-performing regions like New York, California, and Florida, and strengthening partnerships with key retailers like WestGear and Footlocker, can boost Adidas's sales and brand loyalty. This approach underscores the importance of agility and customer-centric strategies in cementing Adidas's competitive edge.
 
 **Problem Statement:**
