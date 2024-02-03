@@ -4,11 +4,11 @@
 <h2>Abstract</h2>  
 My focus during this project is to inform adidas of how can they leverage their advantage in certain areas they are strong in, so they can solidify their advantage as one of the leaders in sportwear. My approach during this project is an approach of using data in order to create advantage through strategies that can boost adidas in those areas that they are stong in, so they can not only mantain the number of sales, but also improve it. This summary highlights strategic opportunities for Adidas to reinforce its market leadership by adapting to shifts in consumer behaviors and leveraging its strengths. The transition towards online shopping, emerging from the Covid-19 pandemic, offers a key area for Adidas to expand its digital footprint and outpace competitors. Analysis of sales patterns reveals potential for targeted marketing strategies, focusing on optimizing sales on specific days of the week and throughout the year to maintain consumer engagement. Demographic insights suggest tailoring product lines to meet the distinct preferences of men and women, enhancing Adidas's relevance and appeal. Additionally, focusing on high-performing regions like New York, California, and Florida, and strengthening partnerships with key retailers like WestGear and Footlocker, can boost Adidas's sales and brand loyalty. This approach underscores the importance of agility and customer-centric strategies in cementing Adidas's competitive edge.
 
-**Problem Statement:**
+<h3>Problem Statement:</h3>
 
 Adidas, a global leader in the sportswear industry, has collected comprehensive data on sales across various channels in the United States during the years 2020 and 2021. The company is eager to gain valuable insights from this dataset to inform strategic decisions and enhance its market position. The primary objective is to uncover trends, patterns, and key performance indicators (KPIs) that can help Adidas better understand its sales dynamics in the US market. Adidas corporate executives, Senior Management, Financial analysts and Investors are the primary stakeholders as they closely monitor the sales performance to assess the company's financial health and make investment decisions.
 
-**Project Scope:**
+<h3>Project Scope:</h3>
 
 1. **Data Collection:**
 
@@ -34,7 +34,7 @@ Adidas, a global leader in the sportswear industry, has collected comprehensive 
 - Suggest potential areas for improvement or optimization in the sales strategy.
 
 
-**OUTCOMES AND SUMMARIZED INSIGHTS:**
+<h3>OUTCOMES AND SUMMARIZED INSIGHTS:</h3>
 The insights summarized here are derived from the data queries presented in this document:
 
 -There was a notable decrease in in-store sales for Adidas in 2021 compared to 2020, while online sales saw an increase in their share of total sales in 2021. This trend likely stemmed from the onset of the Covid-19 pandemic, which shifted consumer purchasing habits. Capitalizing on this trend, Adidas can enhance its online presence and digital marketing strategies, giving an edge over competitors slower to adapt to digital transformations.
@@ -55,7 +55,7 @@ The insights summarized here are derived from the data queries presented in this
 
 
 
-**Adidas queries**
+<h3>Adidas queries</h3>
 
 The following queries take into account the KPIs for this project and intend to gather insight based on said KPIs in order to address Key Questions.
 ```
