@@ -1,8 +1,8 @@
 <a href="https://public.tableau.com/app/profile/ivan.galvan/viz/Adidas_Sales_Report20202021/Dashboard" target="_blank"> Click here for Tableau Visualization of the project</a>
 
 
-<h1>Abstract</h1>
-In this project we show that If they were to hire me I would make adidas the dankest and richers company in the world overnight. Sell cocaine not shooes dumbass. 
+**Abstract**
+My focus during this project is to inform adidas of how can they leverage their advantage in certain areas they are strong in, so they can solidify their advantage as one of the leaders in sportwear. My approach during this project is an approach of using data in order to create advantage through strategies that can boost adidas in those areas that they are stong in, so they can not only mantain the number of sales, but also improve it. This summary highlights strategic opportunities for Adidas to reinforce its market leadership by adapting to shifts in consumer behaviors and leveraging its strengths. The transition towards online shopping, emerging from the Covid-19 pandemic, offers a key area for Adidas to expand its digital footprint and outpace competitors. Analysis of sales patterns reveals potential for targeted marketing strategies, focusing on optimizing sales on specific days of the week and throughout the year to maintain consumer engagement. Demographic insights suggest tailoring product lines to meet the distinct preferences of men and women, enhancing Adidas's relevance and appeal. Additionally, focusing on high-performing regions like New York, California, and Florida, and strengthening partnerships with key retailers like WestGear and Footlocker, can boost Adidas's sales and brand loyalty. This approach underscores the importance of agility and customer-centric strategies in cementing Adidas's competitive edge.
 
 **Problem Statement:**
 
@@ -47,7 +47,7 @@ The insights summarized here are derived from the data queries presented in this
 
 -The top three states in terms of units sold for Adidas products were New York, California, and Florida, indicating strong market presence in these regions. Adidas can concentrate its marketing and distribution efforts in these states. Customizing strategies to suit regional preferences and consumer behaviors in New York, California, and Florida can increase market penetration and brand loyalty, positioning Adidas ahead of competitors in these key markets.
 
--The retail partners WestGear and Footlocker generated significantly higher revenue for Adidas, highlighting their importance in the brand's retail strategy. Strengthening relationships with high-performing retailers like WestGear and Footlocker can lead to more collaborative marketing efforts and exclusive product launches, enhancing brand visibility and sales. This symbiotic relationship not only boosts Adidas’s sales but also provides a competitive edge through strong retail partnerships.
+-The retail partners WestGear and Footlocker generated significantly higher revenue for Adidas, highlighting their importance in the brand's retail strategy. Strengthening relationships with high-performing retailers like WestGear and Footlocker can lead to more collaborative marketing efforts and exclusive product launches, enhancing brand visibility and sales. This relationship not only boosts Adidas’s sales but also provides a competitive edge through strong retail partnerships.
 
 
 
@@ -58,10 +58,11 @@ The insights summarized here are derived from the data queries presented in this
 **Adidas queries**
 
 The following queries take into account the KPIs for this project and intend to gather insight based on said KPIs in order to address Key Questions.
-
+```
 SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
+```
 
-![Description of image](Results Img/Total_Revenue (1.0).jpg)
+<img src="./Adidas_Sales_Report/Total_Revenue (1.0).jpg"/>
 
 
 - Right away I wanted to know the Total Revenue so I started with the simple SUM Query. This number could give me a little bit more information about other aspects later on.
@@ -119,11 +120,7 @@ FROM SalesCTE
 
 
 
-
-
-
-
-
+```
 WITH SalesCTE AS (
 
 SELECT
@@ -157,9 +154,10 @@ DAY(Invoice\_Date)AS Invoice\_Day
 FROM adidas\_us
 
 )
+```
 
 -- Selecting and aggregating for **2021 and 2020** (Units/Sales)
-
+```
 SELECT
 
 Invoice\_Year,
@@ -179,19 +177,16 @@ Invoice\_Year
 ORDERBY
 
 Invoice\_Year;
+```
 
-![Description of image](Results Img/Total_Year (3.0).jpg)
+<img src="./Adidas_Sales_Report/Results Img/Total_Year (3.0).jpg"/>
+
 
 - Following up, I wanted to know the total units sold in each year. This will allow me to later move on into revenue by year and have this piece of information that tells us about our KPIs, as well as helping us analyze trends and seasonality.
 
 
 
-
-
-
-
-
-
+```
 WITH SalesCTE AS (
 
 SELECT
@@ -247,8 +242,9 @@ ORDERBY
 Invoice\_Year,
 
 Sales\_Method;
+```
 
-![This is a table from the result of the above query](Results Img/Units_Sold_by_Method (4.0).jpg)
+<img src="./Adidas_Sales_Report/Results Img/Units_Sold_by_Method (4.0).jpg"/>
 
 - Here I wanted to Understand a little bit more of what Sales Methods were most popular yearly. We can see that the Outlet Sales for 2020 represent 47.29% of all sales in that year compared to 31.29% in 2021. While Online Sales represented 18.83% of all sales in 2020, in 2021 this number went to 42.25%. In-Store Sales represent 33.86% of all sales in 2020, in 2021 26.45%.
 
@@ -261,7 +257,7 @@ Sales\_Method;
 
 
 4.WITH SalesCTE AS (
-
+```
 SELECT
 
 Id,
@@ -313,8 +309,9 @@ DATENAME(WEEKDAY, Invoice\_Date)
 ORDERBY
 
 MIN(Invoice\_Date);
+```
 
-![This is a table from the result of the above query](Results Img/Total_Weekday (5.0).jpg)
+<img src="./Adidas_Sales_Report/Results Img/Total_Weekday (5.0).jpg"/>
 
 
 - Here I was a little bit curious about what days sell more units, and if by any chance there was a day that had numbers that could give us insights. Here are the following %.
@@ -338,11 +335,7 @@ MIN(Invoice\_Date);
 
 
 
-
-
-
-
-
+```
 WITH SalesCTE AS (
 
 SELECT
@@ -376,9 +369,9 @@ DAY(Invoice\_Date)AS Invoice\_Day
 FROM adidas\_us
 
 )
-
+```
 -- Selecting and aggregating data by month
-
+```
 SELECT
 
 Invoice\_Year,
@@ -404,9 +397,11 @@ ORDERBY
 Invoice\_Year,
 
 Invoice\_Month;
+```
 
-![This is a table from the result of the above query 2020](Results Img/Total_Month (6.0).jpg)
-![This is a table from the result of the above query 2021](Results Img/Total_Month (6.0).jpg)
+<img src="./Adidas_Sales_Report/Results Img/Total_Month (6.0).jpg"/>
+<img src="./Adidas_Sales_Report/Results Img/Total_Month (6.1).jpg"/>
+
 
 
 - I was also curious about splitting it by month because it allows us to understand how the trend works in relation to seasonality. Here are the %
@@ -438,12 +433,7 @@ Invoice\_Month;
 The information gathered based on months is especially interesting in 2020 where we see in the months from January to May, where we see stability in the % of sales, but afterward we start to see big variability on the sales each month. In this case is easy to interpret that since the COVID pandemic started in the beginning of 2020, the spending was normal at the beginning of the year, but later on doubts about general economic stability could have hurt the sales. In 2021 when the sales were around 4 times larger than in 2020, the economic situation was also more stable, which could potentially explain why the sales were also stable.
 
 
-
-
-
-
-
-
+```
 
 WITH SalesCTE AS (
 
@@ -478,9 +468,9 @@ DAY(Invoice\_Date)AS Invoice\_Day
 FROM adidas\_us
 
 )
-
+```
 -- Its possible to see the following data only for 2020 and 2021, just adding WHERE YEAR()= in between FROM and GROUP BY, and after the FORM in the / (the difference in year didn't drive into any insights)
-
+```
 SELECT Product,SUM(Total\_Sales)\*100/(SELECTSUM(Total\_Sales)from SalesCTE)AS PCT
 
 FROM SalesCTE
@@ -488,8 +478,10 @@ FROM SalesCTE
 GROUPBY Product
 
 ORDERBY PCT DESC;
+```
 
-![This is a table from the result of the above query](Results Img/PCT_by_Product (7.0).jpg)
+
+<img src="./Adidas_Sales_Report/Results Img/PCT_by_Product (7.0).jpg"/>
 
 - This time I'm jumping directly into what products drive the biggest revenue (% PCT) and we can see that generally speaking Men's Street Footwear drives more revenue than others, followed by Women's Apparel and Men's Athletic Footwear. This indicates that Men tend to focus more on the Shoe aspect (especially Street Footwear), and Women tend to use Adidas more as an apparel brand.
 
@@ -497,12 +489,7 @@ ORDERBY PCT DESC;
 
 
 
-
-
-
-
-
-
+```
 WITH SalesCTE AS (
 
 SELECT
@@ -536,9 +523,10 @@ DAY(Invoice\_Date)AS Invoice\_Day
 FROM adidas\_us
 
 )
+```
 
 --Added WHERE YEAR()= in between FROM and Group as well as after the "from Sales CTE" in the select to get results only from 2021 and 2020.
-
+```
 SELECTTOP 5 State,SUM(Total\_Sales)\*100/(SELECTSUM(Total\_Sales)from SalesCTE)AS PCT
 
 FROM SalesCTE
@@ -546,11 +534,11 @@ FROM SalesCTE
 GROUPBYState
 
 ORDERBY PCT DESC;
-
-![This is a table from the result of the above query 2020/2021](Results Img/PCT_by_State (8.0).jpg)
-![This is a table from the result of the above query 2021](Results Img/PCT_by_State (8.1).jpg)
-![This is a table from the result of the above query 2020](Results Img/PCT_by_State (8.2).jpg)Total_Retailer 
-
+```
+<img src="./Adidas_Sales_Report/Results Img/PCT_by_State (8.0).jpg"/>
+<img src="./Adidas_Sales_Report/Results Img/PCT_by_State (8.1).jpg"/>
+<img src="./Adidas_Sales_Report/Results Img/PCT_by_State (8.2).jpg"/>
+```
 SELECT Retailer,
 
 SUM(CASEWHENYEAR(Invoice\_Date)= 2020 THEN Total\_Sales ELSE 0 END)AS Total\_Revenue\_2020,
@@ -564,6 +552,8 @@ WHEREYEAR(Invoice\_Date)IN(2020, 2021)
 GROUPBY Retailer
 
 ORDERBY Total\_Revenue\_2021 DESC;
-![This is a table from the result of the above query 2021](Results Img/Total_Retailer (9.0).jpg)
+```
 
-FOR THE COMPLETE INSIGHTS AND SUMMARY REFER TO THE BEGINNING OF THIS md FILE AND TO THE TABLEU PUBLIC CHART LINKED IN THE REDME FILE
+<img src="./Adidas_Sales_Report/Results Img/Total_Retailer (9.0).jpg"/>
+
+***FOR THE COMPLETE INSIGHTS AND SUMMARY REFER TO THE BEGINNING OF THIS md FILE AND TO THE TABLEU PUBLIC CHART LINKED IN THE REDME FILE***
