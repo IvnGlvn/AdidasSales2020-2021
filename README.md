@@ -72,7 +72,7 @@ SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
 
 
 
-– Created a CTE that will help get the date in a format that can be worked with, and if needed the CTE can be modified for other purposes later.
+– Created a CTE that will help get the date in a format that can be worked with, and if needed the CTE can be modified for other purposes later (if needed).
 ```
 WITH SalesCTE AS (
 
