@@ -62,7 +62,8 @@ The following queries take into account the KPIs for this project and intend to 
 SELECTSUM(Total\_Sales)AS Total\_Revenue FROM adidas\_us
 ```
 
-<img src="./Adidas_Sales_Report/Total_Revenue (1.0).jpg"/>
+<img src="./Adidas_Sales_Report/Results Img/Total_Revenue (1.0).jpg"/>
+
 
 
 - Right away I wanted to know the Total Revenue so I started with the simple SUM Query. This number could give me a little bit more information about other aspects later on.
